@@ -1,4 +1,4 @@
-let main = document.getElementById("movielist");
+let moviesList = document.getElementById("movielist");
 let apikey = "8dbfc7eb";
 const query = document.getElementById("search");
 let favorites = null;
