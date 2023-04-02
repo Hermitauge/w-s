@@ -1,4 +1,4 @@
-const main = document.getElementById("favorites");
+let main = document.getElementById("favorites");
 const nomovies = document.getElementById("no-movies")
 const movielist = JSON.parse(localStorage.getItem("watchList"))
 if(movielist.length === 0) {
